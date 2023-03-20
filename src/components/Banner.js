@@ -21,7 +21,7 @@ const Banner = () => {
             </p>
             <HashLink to="/contact">
               <button>
-                Let's connect <ArrowRightCircle size={25} />
+                Contact Me <ArrowRightCircle size={25} />
               </button>
             </HashLink>
           </Col>

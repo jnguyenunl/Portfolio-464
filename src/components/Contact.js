@@ -4,8 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const Contact = () => {
   return (
-    <section className="contact" id="connect">
-      <Container className="contact" id="connect">
+    <section className="contact">
+      <Container className="contact">
         <Row className="align-items-center">
           <h2>Get In Touch</h2>
           <Col>

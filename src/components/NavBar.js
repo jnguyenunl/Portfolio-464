@@ -29,7 +29,7 @@ const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/skills" className={"navbar-link"}>
+            <Nav.Link href="/" className={"navbar-link"}>
               Home
             </Nav.Link>
             <Nav.Link href="/skills" className={"navbar-link"}>
@@ -41,19 +41,19 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="">
+              <a href="https://linkedin.com">
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a href="">
+              <a href="https://facebook.com">
                 <img src={navIcon2} alt="FaceBook" />
               </a>
-              <a href="">
+              <a href="https://instagram.com">
                 <img src={navIcon3} alt="Instagram" />
               </a>
             </div>
             <HashLink to="/contact">
               <button className="vvd">
-                <span>Let's Connect</span>
+                <span>Contact Me</span>
               </button>
             </HashLink>
           </span>
