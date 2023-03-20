@@ -19,7 +19,7 @@ const Banner = () => {
               leverage skills of collaboration, communication, and support as a
               programming developer.
             </p>
-            <HashLink to="#connect">
+            <HashLink to="/contact">
               <button>
                 Let's connect <ArrowRightCircle size={25} />
               </button>
