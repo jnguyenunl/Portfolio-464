@@ -35,8 +35,9 @@ const Contact = () => {
                   <input
                     type="email"
                     placeholder="Email Address"
-                    required
                     name="email"
+                    required
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
                   />
                 </Col>
                 <Col sm={6} className="px-1">
