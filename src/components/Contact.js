@@ -10,6 +10,10 @@ const Contact = () => {
           <h2>Get In Touch</h2>
           <Col>
             <form name="form" method="post">
+              <input type="hidden" name="form-name" value="form" />
+              <div hidden>
+                <input name="bot-field" />
+              </div>
               <Row>
                 <Col sm={6} className="px-1">
                   <input
