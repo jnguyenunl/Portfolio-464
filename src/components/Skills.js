@@ -13,6 +13,7 @@ import css from "../assets/img/css.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import perl from "../assets/img/perl.svg";
+import python from "../assets/img/python.png";
 
 const Skills = () => {
   const responsive = {
@@ -90,6 +91,10 @@ const Skills = () => {
                 <div className="item">
                   <img src={perl} alt="Perl" />
                   <h5>Perl</h5>
+                </div>
+                <div className="item">
+                  <img src={python} alt="Perl" />
+                  <h5>Python</h5>
                 </div>
               </Carousel>
             </div>
